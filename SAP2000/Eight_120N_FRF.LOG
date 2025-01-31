@@ -1,0 +1,446 @@
+
+
+ SAP2000 v14.2.2 Advanced (Analysis Build 8851/32)
+ File: C:\Users\user2\Google D...ting\Vibration\Eight\SAP2000\Eight_120N_FRF.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2019/04/05  10:37:06
+
+
+ RUNNING ANALYSIS WITHIN THE GUI PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+
+ E L E M E N T   F O R M A T I O N                                      10:37:06
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        10:37:06
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =         219
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =        1086
+
+ NUMBER OF EIGENVALUES BELOW SHIFT         =           0
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                10:37:07
+
+ CASE: MODAL1
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =         219
+ NUMBER OF MASS DEGREES OF FREEDOM         =         219
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          40
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+
+ Forming stiffness, new shift: EV= 9.7229518E+03, f=   15.693478, T=    0.063721
+ Number of eigenvalues below shift =      0
+ Found mode      1 of     40:  EV= 1.0234121E+04, f=   16.100724, T=    0.062109
+ Found mode      2 of     40:  EV= 1.0236179E+04, f=   16.102343, T=    0.062103
+ Found mode      3 of     40:  EV= 1.0326319E+04, f=   16.173087, T=    0.061831
+ Found mode      4 of     40:  EV= 1.0329246E+04, f=   16.175378, T=    0.061822
+ Found mode      5 of     40:  EV= 1.0330179E+04, f=   16.176109, T=    0.061820
+ Found mode      6 of     40:  EV= 1.0330684E+04, f=   16.176504, T=    0.061818
+ Found mode      7 of     40:  EV= 1.0413121E+04, f=   16.240918, T=    0.061573
+ Found mode      8 of     40:  EV= 1.0414930E+04, f=   16.242329, T=    0.061568
+ Found mode      9 of     40:  EV= 1.4575732E+04, f=   19.214775, T=    0.052043
+ Found mode     10 of     40:  EV= 1.4614323E+04, f=   19.240195, T=    0.051975
+ Found mode     11 of     40:  EV= 1.4614323E+04, f=   19.240196, T=    0.051975
+ Found mode     12 of     40:  EV= 1.4617226E+04, f=   19.242107, T=    0.051969
+ Found mode     13 of     40:  EV= 1.4617226E+04, f=   19.242107, T=    0.051969
+ Found mode     14 of     40:  EV= 1.4617226E+04, f=   19.242107, T=    0.051969
+ Found mode     15 of     40:  EV= 1.4617226E+04, f=   19.242107, T=    0.051969
+ Found mode     16 of     40:  EV= 1.4617226E+04, f=   19.242107, T=    0.051969
+ Found mode     17 of     40:  EV= 2.0773464E+04, f=   22.939006, T=    0.043594
+
+ Forming stiffness, new shift: EV= 3.8566776E+04, f=   31.255525, T=    0.031994
+ Number of eigenvalues below shift =     17
+ Found mode     18 of     40:  EV= 4.0084825E+04, f=   31.864721, T=    0.031383
+ Found mode     19 of     40:  EV= 4.0094100E+04, f=   31.868408, T=    0.031379
+ Found mode     20 of     40:  EV= 4.0182519E+04, f=   31.903528, T=    0.031344
+ Found mode     21 of     40:  EV= 4.0195011E+04, f=   31.908487, T=    0.031340
+ Found mode     22 of     40:  EV= 4.1957856E+04, f=   32.600689, T=    0.030674
+ Found mode     23 of     40:  EV= 4.1971391E+04, f=   32.605947, T=    0.030669
+ Found mode     24 of     40:  EV= 4.1976903E+04, f=   32.608087, T=    0.030667
+ Found mode     25 of     40:  EV= 4.1987667E+04, f=   32.612268, T=    0.030663
+ Found mode     26 of     40:  EV= 5.6800607E+04, f=   37.931203, T=    0.026364
+ Found mode     27 of     40:  EV= 5.6801204E+04, f=   37.931402, T=    0.026363
+ Found mode     28 of     40:  EV= 5.7038069E+04, f=   38.010409, T=    0.026309
+ Found mode     29 of     40:  EV= 5.7038069E+04, f=   38.010409, T=    0.026309
+ Found mode     30 of     40:  EV= 5.7038069E+04, f=   38.010409, T=    0.026309
+ Found mode     31 of     40:  EV= 5.7038069E+04, f=   38.010409, T=    0.026309
+ Found mode     32 of     40:  EV= 5.7038069E+04, f=   38.010409, T=    0.026309
+ Found mode     33 of     40:  EV= 5.7063638E+04, f=   38.018927, T=    0.026303
+ Found mode     34 of     40:  EV= 5.8983916E+04, f=   38.653332, T=    0.025871
+ Found mode     35 of     40:  EV= 5.8989774E+04, f=   38.655251, T=    0.025870
+
+ Forming stiffness, new shift: EV= 7.9981927E+04, f=   45.010731, T=    0.022217
+ Number of eigenvalues below shift =     35
+ Found mode     36 of     40:  EV= 8.2161672E+04, f=   45.619946, T=    0.021920
+ Found mode     37 of     40:  EV= 8.2167191E+04, f=   45.621478, T=    0.021920
+ Found mode     38 of     40:  EV= 8.5473032E+04, f=   46.530175, T=    0.021491
+ Found mode     39 of     40:  EV= 8.5479747E+04, f=   46.532003, T=    0.021491
+ Found mode     40 of     40:  EV= 8.5481338E+04, f=   46.532436, T=    0.021490
+
+ NUMBER OF EIGEN MODES FOUND               =          40
+ NUMBER OF ITERATIONS PERFORMED            =          28
+ NUMBER OF STIFFNESS SHIFTS                =           3
+
+
+ S T E A D Y - S T A T E   A N A L Y S I S                              10:37:08
+
+ CASE: FRF1
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ MODAL FREQUENCIES TAKEN FROM MODAL CASE: MODAL1
+
+ MINIMUM FREQUENCY IN RANGE (HZ)           =    1.000000
+ MAXIMUM FREQUENCY IN RANGE (HZ)           =   45.000000
+ NUMBER OF UNIFORM FREQUENCY INCREMENTS    =         440
+ NUMBER OF DIRECTLY SPECIFIED FREQUENCIES  =           0
+ NUMBER OF FREQUENCY LOCATIONS PER MODE    =           1
+ TOTAL NUMBER OF FREQUENCIES TO BE SOLVED  =         467
+
+          Saved       Frequency    Current
+          Steps       Step Type   Freq(Hz)
+ Limit      467                  45.000000
+
+ Curr         1    Uniform Incr   1.000000
+ Curr         2    Uniform Incr   1.100000
+ Curr         3    Uniform Incr   1.200000
+ Curr         4    Uniform Incr   1.300000
+ Curr         5    Uniform Incr   1.400000
+ Curr         6    Uniform Incr   1.500000
+ Curr         7    Uniform Incr   1.600000
+ Curr         8    Uniform Incr   1.700000
+ Curr         9    Uniform Incr   1.800000
+ Curr        10    Uniform Incr   1.900000
+ Curr        11    Uniform Incr   2.000000
+ Curr        12    Uniform Incr   2.100000
+ Curr        13    Uniform Incr   2.200000
+ Curr        14    Uniform Incr   2.300000
+ Curr        15    Uniform Incr   2.400000
+ Curr        16    Uniform Incr   2.500000
+ Curr        17    Uniform Incr   2.600000
+ Curr        18    Uniform Incr   2.700000
+ Curr        19    Uniform Incr   2.800000
+ Curr        20    Uniform Incr   2.900000
+ Curr        21    Uniform Incr   3.000000
+ Curr        22    Uniform Incr   3.100000
+ Curr        23    Uniform Incr   3.200000
+ Curr        24    Uniform Incr   3.300000
+ Curr        25    Uniform Incr   3.400000
+ Curr        26    Uniform Incr   3.500000
+ Curr        27    Uniform Incr   3.600000
+ Curr        28    Uniform Incr   3.700000
+ Curr        29    Uniform Incr   3.800000
+ Curr        30    Uniform Incr   3.900000
+ Curr        31    Uniform Incr   4.000000
+ Curr        32    Uniform Incr   4.100000
+ Curr        33    Uniform Incr   4.200000
+ Curr        34    Uniform Incr   4.300000
+ Curr        35    Uniform Incr   4.400000
+ Curr        36    Uniform Incr   4.500000
+ Curr        37    Uniform Incr   4.600000
+ Curr        38    Uniform Incr   4.700000
+ Curr        39    Uniform Incr   4.800000
+ Curr        40    Uniform Incr   4.900000
+ Curr        41    Uniform Incr   5.000000
+ Curr        42    Uniform Incr   5.100000
+ Curr        43    Uniform Incr   5.200000
+ Curr        44    Uniform Incr   5.300000
+ Curr        45    Uniform Incr   5.400000
+ Curr        46    Uniform Incr   5.500000
+ Curr        47    Uniform Incr   5.600000
+ Curr        48    Uniform Incr   5.700000
+ Curr        49    Uniform Incr   5.800000
+ Curr        50    Uniform Incr   5.900000
+ Curr        51    Uniform Incr   6.000000
+ Curr        52    Uniform Incr   6.100000
+ Curr        53    Uniform Incr   6.200000
+ Curr        54    Uniform Incr   6.300000
+ Curr        55    Uniform Incr   6.400000
+ Curr        56    Uniform Incr   6.500000
+ Curr        57    Uniform Incr   6.600000
+ Curr        58    Uniform Incr   6.700000
+ Curr        59    Uniform Incr   6.800000
+ Curr        60    Uniform Incr   6.900000
+ Curr        61    Uniform Incr   7.000000
+ Curr        62    Uniform Incr   7.100000
+ Curr        63    Uniform Incr   7.200000
+ Curr        64    Uniform Incr   7.300000
+ Curr        65    Uniform Incr   7.400000
+ Curr        66    Uniform Incr   7.500000
+ Curr        67    Uniform Incr   7.600000
+ Curr        68    Uniform Incr   7.700000
+ Curr        69    Uniform Incr   7.800000
+ Curr        70    Uniform Incr   7.900000
+ Curr        71    Uniform Incr   8.000000
+ Curr        72    Uniform Incr   8.100000
+ Curr        73    Uniform Incr   8.200000
+ Curr        74    Uniform Incr   8.300000
+ Curr        75    Uniform Incr   8.400000
+ Curr        76    Uniform Incr   8.500000
+ Curr        77    Uniform Incr   8.600000
+ Curr        78    Uniform Incr   8.700000
+ Curr        79    Uniform Incr   8.800000
+ Curr        80    Uniform Incr   8.900000
+ Curr        81    Uniform Incr   9.000000
+ Curr        82    Uniform Incr   9.100000
+ Curr        83    Uniform Incr   9.200000
+ Curr        84    Uniform Incr   9.300000
+ Curr        85    Uniform Incr   9.400000
+ Curr        86    Uniform Incr   9.500000
+ Curr        87    Uniform Incr   9.600000
+ Curr        88    Uniform Incr   9.700000
+ Curr        89    Uniform Incr   9.800000
+ Curr        90    Uniform Incr   9.900000
+ Curr        91    Uniform Incr  10.000000
+ Curr        92    Uniform Incr  10.100000
+ Curr        93    Uniform Incr  10.200000
+ Curr        94    Uniform Incr  10.300000
+ Curr        95    Uniform Incr  10.400000
+ Curr        96    Uniform Incr  10.500000
+ Curr        97    Uniform Incr  10.600000
+ Curr        98    Uniform Incr  10.700000
+ Curr        99    Uniform Incr  10.800000
+ Curr       100    Uniform Incr  10.900000
+ Curr       101    Uniform Incr  11.000000
+ Curr       102    Uniform Incr  11.100000
+ Curr       103    Uniform Incr  11.200000
+ Curr       104    Uniform Incr  11.300000
+ Curr       105    Uniform Incr  11.400000
+ Curr       106    Uniform Incr  11.500000
+ Curr       107    Uniform Incr  11.600000
+ Curr       108    Uniform Incr  11.700000
+ Curr       109    Uniform Incr  11.800000
+ Curr       110    Uniform Incr  11.900000
+ Curr       111    Uniform Incr  12.000000
+ Curr       112    Uniform Incr  12.100000
+ Curr       113    Uniform Incr  12.200000
+ Curr       114    Uniform Incr  12.300000
+ Curr       115    Uniform Incr  12.400000
+ Curr       116    Uniform Incr  12.500000
+ Curr       117    Uniform Incr  12.600000
+ Curr       118    Uniform Incr  12.700000
+ Curr       119    Uniform Incr  12.800000
+ Curr       120    Uniform Incr  12.900000
+ Curr       121    Uniform Incr  13.000000
+ Curr       122    Uniform Incr  13.100000
+ Curr       123    Uniform Incr  13.200000
+ Curr       124    Uniform Incr  13.300000
+ Curr       125    Uniform Incr  13.400000
+ Curr       126    Uniform Incr  13.500000
+ Curr       127    Uniform Incr  13.600000
+ Curr       128    Uniform Incr  13.700000
+ Curr       129    Uniform Incr  13.800000
+ Curr       130    Uniform Incr  13.900000
+ Curr       131    Uniform Incr  14.000000
+ Curr       132    Uniform Incr  14.100000
+ Curr       133    Uniform Incr  14.200000
+ Curr       134    Uniform Incr  14.300000
+ Curr       135    Uniform Incr  14.400000
+ Curr       136    Uniform Incr  14.500000
+ Curr       137    Uniform Incr  14.600000
+ Curr       138    Uniform Incr  14.700000
+ Curr       139    Uniform Incr  14.800000
+ Curr       140    Uniform Incr  14.900000
+ Curr       141    Uniform Incr  15.000000
+ Curr       142    Uniform Incr  15.100000
+ Curr       143    Uniform Incr  15.200000
+ Curr       144    Uniform Incr  15.300000
+ Curr       145    Uniform Incr  15.400000
+ Curr       146    Uniform Incr  15.500000
+ Curr       147    Uniform Incr  15.600000
+ Curr       148    Uniform Incr  15.700000
+ Curr       149    Uniform Incr  15.800000
+ Curr       150    Uniform Incr  15.900000
+ Curr       151    Uniform Incr  16.000000
+ Curr       152    Uniform Incr  16.100000
+ Curr       153    Mode       1  16.100724
+ Curr       154    Mode       2  16.102343
+ Curr       155    Mode       3  16.173087
+ Curr       156    Mode       4  16.175378
+ Curr       157    Mode       5  16.176109
+ Curr       158    Mode       6  16.176504
+ Curr       159    Uniform Incr  16.200000
+ Curr       160    Mode       7  16.240918
+ Curr       161    Mode       8  16.242329
+ Curr       162    Uniform Incr  16.300000
+ Curr       163    Uniform Incr  16.400000
+ Curr       164    Uniform Incr  16.500000
+ Curr       165    Uniform Incr  16.600000
+ Curr       166    Uniform Incr  16.700000
+ Curr       167    Uniform Incr  16.800000
+ Curr       168    Uniform Incr  16.900000
+ Curr       169    Uniform Incr  17.000000
+ Curr       170    Uniform Incr  17.100000
+ Curr       171    Uniform Incr  17.200000
+ Curr       172    Uniform Incr  17.300000
+ Curr       173    Uniform Incr  17.400000
+ Curr       174    Uniform Incr  17.500000
+ Curr       175    Uniform Incr  17.600000
+ Curr       176    Uniform Incr  17.700000
+ Curr       177    Uniform Incr  17.800000
+ Curr       178    Uniform Incr  17.900000
+ Curr       179    Uniform Incr  18.000000
+ Curr       180    Uniform Incr  18.100000
+ Curr       181    Uniform Incr  18.200000
+ Curr       182    Uniform Incr  18.300000
+ Curr       183    Uniform Incr  18.400000
+ Curr       184    Uniform Incr  18.500000
+ Curr       185    Uniform Incr  18.600000
+ Curr       186    Uniform Incr  18.700000
+ Curr       187    Uniform Incr  18.800000
+ Curr       188    Uniform Incr  18.900000
+ Curr       189    Uniform Incr  19.000000
+ Curr       190    Uniform Incr  19.100000
+ Curr       191    Uniform Incr  19.200000
+ Curr       192    Mode       9  19.214775
+ Curr       193    Mode      10  19.240195
+ Curr       194    Mode      12  19.242107
+ Curr       195    Uniform Incr  19.300000
+ Curr       196    Uniform Incr  19.400000
+ Curr       197    Uniform Incr  19.500000
+ Curr       198    Uniform Incr  19.600000
+ Curr       199    Uniform Incr  19.700000
+ Curr       200    Uniform Incr  19.800000
+ Curr       201    Uniform Incr  19.900000
+ Curr       202    Uniform Incr  20.000000
+ Curr       203    Uniform Incr  20.100000
+ Curr       204    Uniform Incr  20.200000
+ Curr       205    Uniform Incr  20.300000
+ Curr       206    Uniform Incr  20.400000
+ Curr       207    Uniform Incr  20.500000
+ Curr       208    Uniform Incr  20.600000
+ Curr       209    Uniform Incr  20.700000
+ Curr       210    Uniform Incr  20.800000
+ Curr       211    Uniform Incr  20.900000
+ Curr       212    Uniform Incr  21.000000
+ Curr       213    Uniform Incr  21.100000
+ Curr       214    Uniform Incr  21.200000
+ Curr       215    Uniform Incr  21.300000
+ Curr       216    Uniform Incr  21.400000
+ Curr       217    Uniform Incr  21.500000
+ Curr       218    Uniform Incr  21.600000
+ Curr       219    Uniform Incr  21.700000
+ Curr       220    Uniform Incr  21.800000
+ Curr       221    Uniform Incr  21.900000
+ Curr       222    Uniform Incr  22.000000
+ Curr       223    Uniform Incr  22.100000
+ Curr       224    Uniform Incr  22.200000
+ Curr       225    Uniform Incr  22.300000
+ Curr       226    Uniform Incr  22.400000
+ Curr       227    Uniform Incr  22.500000
+ Curr       228    Uniform Incr  22.600000
+ Curr       229    Uniform Incr  22.700000
+ Curr       230    Uniform Incr  22.800000
+ Curr       231    Uniform Incr  22.900000
+ Curr       232    Mode      17  22.939006
+ Curr       233    Uniform Incr  23.000000
+ Curr       234    Uniform Incr  23.100000
+ Curr       235    Uniform Incr  23.200000
+ Curr       236    Uniform Incr  23.300000
+ Curr       237    Uniform Incr  23.400000
+ Curr       238    Uniform Incr  23.500000
+ Curr       239    Uniform Incr  23.600000
+ Curr       240    Uniform Incr  23.700000
+ Curr       241    Uniform Incr  23.800000
+ Curr       242    Uniform Incr  23.900000
+ Curr       243    Uniform Incr  24.000000
+ Curr       244    Uniform Incr  24.100000
+ Curr       245    Uniform Incr  24.200000
+ Curr       246    Uniform Incr  24.300000
+ Curr       247    Uniform Incr  24.400000
+ Curr       248    Uniform Incr  24.500000
+ Curr       249    Uniform Incr  24.600000
+ Curr       250    Uniform Incr  24.700000
+ Curr       251    Uniform Incr  24.800000
+ Curr       252    Uniform Incr  24.900000
+ Curr       253    Uniform Incr  25.000000
+ Curr       254    Uniform Incr  25.100000
+ Curr       255    Uniform Incr  25.200000
+ Curr       256    Uniform Incr  25.300000
+ Curr       257    Uniform Incr  25.400000
+ Curr       258    Uniform Incr  25.500000
+ Curr       259    Uniform Incr  25.600000
+ Curr       260    Uniform Incr  25.700000
+ Curr       261    Uniform Incr  25.800000
+ Curr       262    Uniform Incr  25.900000
+ Curr       263    Uniform Incr  26.000000
+ Curr       264    Uniform Incr  26.100000
+ Curr       265    Uniform Incr  26.200000
+ Curr       266    Uniform Incr  26.300000
+ Curr       267    Uniform Incr  26.400000
+ Curr       268    Uniform Incr  26.500000
+ Curr       269    Uniform Incr  26.600000
+ Curr       270    Uniform Incr  26.700000
+ Curr       271    Uniform Incr  26.800000
+ Curr       272    Uniform Incr  26.900000
+ Curr       273    Uniform Incr  27.000000
+ Curr       274    Uniform Incr  27.100000
+ Curr       275    Uniform Incr  27.200000
+ Curr       276    Uniform Incr  27.300000
+ Curr       277    Uniform Incr  27.400000
+ Curr       278    Uniform Incr  27.500000
+ Curr       279    Uniform Incr  27.600000
+ Curr       280    Uniform Incr  27.700000
+ Curr       281    Uniform Incr  27.800000
+ Curr       282    Uniform Incr  27.900000
+ Curr       283    Uniform Incr  28.000000
+ Curr       284    Uniform Incr  28.100000
+ Curr       285    Uniform Incr  28.200000
+ Curr       286    Uniform Incr  28.300000
+ Curr       287    Uniform Incr  28.400000
+ Curr       288    Uniform Incr  28.500000
+ Curr       289    Uniform Incr  28.600000
+ Curr       290    Uniform Incr  28.700000
+ Curr       291    Uniform Incr  28.800000
+ Curr       292    Uniform Incr  28.900000
+ Curr       293    Uniform Incr  29.000000
+ Curr       294    Uniform Incr  29.100000
+ Curr       295    Uniform Incr  29.200000
+ Curr       296    Uniform Incr  29.300000
+ Curr       297    Uniform Incr  29.400000
+ Curr       298    Uniform Incr  29.500000
+ Curr       299    Uniform Incr  29.600000
+ Curr       300    Uniform Incr  29.700000
+ Curr       301    Uniform Incr  29.800000
+ Curr       302    Uniform Incr  29.900000
+ Curr       303    Uniform Incr  30.000000
+ Curr       304    Uniform Incr  30.100000
+ Curr       305    Uniform Incr  30.200000
+ Curr       306    Uniform Incr  30.300000
+ Curr       307    Uniform Incr  30.400000
+ Curr       308    Uniform Incr  30.500000
+ Curr       309    Uniform Incr  30.600000
+ Curr       310    Uniform Incr  30.700000
+ Curr       311    Uniform Incr  30.800000
+ Curr       312    Uniform Incr  30.900000
+ Curr       313    Uniform Incr  31.000000
+
+ * * * E R R O R * * *   (WHILE RUNNING ANALYSIS)
+ FILE OPEN ERROR #  -32,
+ FILE NAME = C:\Users\user2\Google Drive\1 Master Degree\3 Mutli-Nozzle 3D Pr
+             inting\Vibration\Eight\SAP2000\Eight_120N_FRF.K~M
+
+
+
+ A N A L Y S I S   I N C O M P L E T E   ! !                2019/04/05  10:37:17

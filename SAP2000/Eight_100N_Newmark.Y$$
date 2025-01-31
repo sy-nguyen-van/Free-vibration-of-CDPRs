@@ -1,0 +1,7 @@
+  RespType: Case     ,  File: .Y04,  Records:           0       27196
+  RespType: Displ    ,  File: .Y00,  Records:           0      239496
+  RespType: Veloc    ,  File: .Y05,  Records:           0       41208
+  RespType: Accel    ,  File: .Y06,  Records:           0       41208
+  RespType: React    ,  File: .Y03,  Records:           0      198288
+  RespType: JFJoint  ,  File: .Y01,  Records:           0      198288
+  RespType: JFSpring ,  File: .Y02,  Records:           0      198288

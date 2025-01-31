@@ -1,0 +1,72 @@
+
+
+ SAP2000 v14.2.2 Advanced (Analysis Build 8851/32)
+ File: C:\Users\user2\Google D...Printing\Vibration\Eight\SAP2000\Eight_140N.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2019/04/03  23:13:27
+
+
+ RUNNING ANALYSIS WITHIN THE GUI PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+
+ E L E M E N T   F O R M A T I O N                                      23:13:27
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        23:13:27
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =         219
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =        1086
+
+ NUMBER OF EIGENVALUES BELOW SHIFT         =           0
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                23:13:27
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =         219
+ NUMBER OF MASS DEGREES OF FREEDOM         =         219
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+
+ Forming stiffness, new shift: EV= 9.5851809E+03, f=   15.581896, T=    0.064177
+ Number of eigenvalues below shift =      0
+ Found mode      1 of     12:  EV= 1.0089658E+04, f=   15.986683, T=    0.062552
+ Found mode      2 of     12:  EV= 1.0091248E+04, f=   15.987942, T=    0.062547
+ Found mode      3 of     12:  EV= 1.0127791E+04, f=   16.016865, T=    0.062434
+ Found mode      4 of     12:  EV= 1.0129302E+04, f=   16.018059, T=    0.062430
+ Found mode      5 of     12:  EV= 1.0344357E+04, f=   16.187205, T=    0.061777
+ Found mode      6 of     12:  EV= 1.0347225E+04, f=   16.189449, T=    0.061769
+ Found mode      7 of     12:  EV= 1.0348162E+04, f=   16.190183, T=    0.061766
+ Found mode      8 of     12:  EV= 1.0348665E+04, f=   16.190576, T=    0.061764
+ Found mode      9 of     12:  EV= 1.6990888E+04, f=   20.745704, T=    0.048203
+ Found mode     10 of     12:  EV= 1.7080001E+04, f=   20.800036, T=    0.048077
+ Found mode     11 of     12:  EV= 1.7080001E+04, f=   20.800036, T=    0.048077
+ Found mode     12 of     12:  EV= 1.7084203E+04, f=   20.802594, T=    0.048071
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =          10
+ NUMBER OF STIFFNESS SHIFTS                =           1
+
+
+ A N A L Y S I S   C O M P L E T E                          2019/04/03  23:13:28
